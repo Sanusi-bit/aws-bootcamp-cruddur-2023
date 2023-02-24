@@ -10,6 +10,5 @@ I then verified the installation of the AWS CLI by configuring it on gitpod and 
 
 ![AWS CLI](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/aws-cli-Week-0.PNG)
 
-**Note to insert Image**
 
 ### 
