@@ -18,3 +18,10 @@ I created a docker-compose file to build the images for both frontend and backen
 ![Image of all ports served on both frontend and backend of the application to verify successful running of both containers](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/docker-compose-week-1.png)
 
 ![Cruddur home page verifying successful running of frontend and backend containers](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Cruddur-home-week-1.png)
+
+
+### 2. Creating a notification endpoint 
+
+I created the API Endpoints for the notification feature in the [OpenAPI](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/backend-flask/openapi-3.0.yml) file then created notification activities [module](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/backend-flask/services/notifications_activities.py) as a service to be used in the overall app. 
+
+![Image for notifications endpoint](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-api-endpoint-week-1.png)
