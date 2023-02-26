@@ -77,5 +77,44 @@ I started this challenge by building a simple image, tagged the image and pushed
 ```
 mkdir Challenges
 ```
--
+- Change into the 'Challenges' folder created
+```
+cd Challenges
+```
+- Create a dockerfile
+```
+touch Dockerfile
+```
+- Paste the code below into the Dockerfile
+```
+FROM python:3.8-buster
+RUN pip install --upgrade pip
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY src/ .
+CMD [ "python", "aws-bootcamp.py"]
+```
+- Create a requirements.txt file
+```
+touch requirements.txt
+```
+- Paste the code below for the required libraries into the requirements file
+```
+numpy==1.14.3
+matplotlib==2.2.2
+seaborn==0.8.1
+```
+- Create a sub-folder in the Challenges folder named "src"
+```
+mkdir src
+```
+- Login to your Dockerhub account using the code below. Once prompted for username, input the username for your dockerhub account to log you in successfully.
+```
+docker login -u Username
+```
+- Build the docker image from the docker file created with a tag "aws-bootcamp".
+```
+docker build -t aws-bootcamp ./Challenges/Dockerfile
+```
+
 
