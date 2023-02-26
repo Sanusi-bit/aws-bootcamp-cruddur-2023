@@ -25,3 +25,10 @@ I created a docker-compose file to build the images for both frontend and backen
 I created the API Endpoints for the notification feature in the [OpenAPI](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/backend-flask/openapi-3.0.yml) file then created notification activities [module](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/backend-flask/services/notifications_activities.py) as a service to be used in the overall app. 
 
 ![Image for notifications endpoint](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-api-endpoint-week-1.png)
+
+
+### 3. Implemented the notifications page using react
+
+Created the frontend page for the notifications feed feature of the cruddur app using react and used React router to route it to the app. Here is the [link](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js) to the Notifications Feed page
+
+![Image of the Notifications page](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-FeedPagwe-week-1.png)
