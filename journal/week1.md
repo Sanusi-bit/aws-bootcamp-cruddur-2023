@@ -146,4 +146,5 @@ docker images
 
 ## References
 [Connecting to your AWS EC2 Instance using PuTTy](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+
 [Installing Docker on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
