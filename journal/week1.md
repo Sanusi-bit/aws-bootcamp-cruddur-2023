@@ -56,3 +56,9 @@ I installed postgres client into Gitpod using the code below. I then connected s
       sudo apt install -y postgresql-client-13 libpq-dev
 
 ```
+
+I further integrated Postgres local into the existing [docker-compose file](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yml) to run the service as a container.
+
+![Postgresql Database explorer succesful connection](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/postgresql-db-explorer-week-1.png)
+
+![Postgre client successful connection after running the container](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/postgresql-client-week-1.png)
