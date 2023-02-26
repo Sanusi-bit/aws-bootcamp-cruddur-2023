@@ -32,3 +32,14 @@ I created the API Endpoints for the notification feature in the [OpenAPI](https:
 Created the frontend page for the notifications feed feature of the cruddur app using react and used React router to route it to the app. Here is the [link](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js) to the Notifications Feed page with a post from User(Sanusi Waris) saying (I am beautiful) being notified
 
 ![Image of the Notifications page](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-FeedPagwe-week-1.png)
+
+
+### 4. Run DynamoDB Local Container.
+
+I further integrated DynamoDB local into the existing [docker-compose file](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yml) to run the service as a container. Created a table named "Music" in the local volume of the DynamoDB and generated records from the table as shown in the image below.
+
+![Image showing table generated from the DynamoDB local volume](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Dynamodb-table-week-1.png)
+
+
+![Image showing table records generated from the DynamoDB local volume](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Dynamodb-table-records-week-1.png)
+
