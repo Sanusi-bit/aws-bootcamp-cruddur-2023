@@ -116,5 +116,14 @@ docker login -u Username
 ```
 docker build -t aws-bootcamp ./Challenges/Dockerfile
 ```
-
+- Tag the docker image built
+```
+docker image tag aws-bootcamp Username/aws-bootcamp:latest
+```
+- Push the image to docker hub
+```
+docker image push Username/aws-bootcamp:latest
+```
+Login to your dockerhub account to see your image under repositories.
+![Image pushed to Docker Hub](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/dockerhub-image-week-1.png) 
 
