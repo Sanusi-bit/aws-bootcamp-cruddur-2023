@@ -128,3 +128,22 @@ Login to your dockerhub account to see your image under repositories.
 ![Image pushed to Docker Hub](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/dockerhub-image-week-1.png) 
 
 ### 2. Launch an EC2 Instance and Pull a container.
+
+For this challenge, I launched an EC2 Instance on my AWS console using a t2 micro free tier and an Ubuntu OS. For further reference on launching an EC2 Instance on AWS, check the [link](https://www.guru99.com/creating-amazon-ec2-instance.html). 
+
+I then used an OpenSSH tool (PuTTy) to login to my Instance where I then installed docker. After Installing Docker, I then pulled an Ubuntu image from the Docker Hub using the code below.
+
+```
+docker image pull ubuntu
+```
+
+Confirm your image has been pulled successfully by running the code below.
+```
+docker images
+```
+![List of Docker images pulled successfully](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/ubuntu-image-week-1.png)
+
+
+## References
+[Connecting to your AWS EC2 Instance using PuTTy](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+[Installing Docker on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
