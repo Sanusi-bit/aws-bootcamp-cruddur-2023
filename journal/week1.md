@@ -108,7 +108,7 @@ seaborn==0.8.1
 ```
 mkdir src
 ```
-- Login to your Dockerhub account using the code below. Once prompted for username, input the username for your dockerhub account to log you in successfully.
+- Login to your Dockerhub account using the code below. Once prompted for the password, input the password for your dockerhub account to log you in successfully.
 ```
 docker login -u Username
 ```
