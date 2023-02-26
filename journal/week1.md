@@ -62,3 +62,20 @@ I further integrated Postgres local into the existing [docker-compose file](http
 ![Postgresql Database explorer succesful connection](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/postgresql-db-explorer-week-1.png)
 
 ![Postgre client successful connection after running the container](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/postgresql-client-week-1.png)
+
+
+## Homework Challenges
+
+### 1. Tag and push an image to dockerhub.
+
+I started this challenge by building a simple image, tagged the image and pushed the image to dockerhub. The instructions are seen below.
+
+- Create an account on [Docker Hub](https://hub.docker.com/) and take note of your username.
+- Let's build a simple python image with the following libraries (numpy 1.14.3, matplotlib 2.2.2, seaborn 0.8.1)
+- Ensure docker is installed on your local PC or instance. You can follow this [link](https://docs.docker.com/desktop/install/) to install docker based on your OS.
+- Create a folder called 'Challenges'
+```
+mkdir Challenges
+```
+-
+
