@@ -34,7 +34,7 @@ Created the frontend page for the notifications feed feature of the cruddur app 
 ![Image of the Notifications page](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-FeedPagwe-week-1.png)
 
 
-### 4. Run DynamoDB Local Container.
+### 4. Running DynamoDB Local Container.
 
 I further integrated DynamoDB local into the existing [docker-compose file](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yml) to run the service as a container. Created a table named "Music" in the local volume of the DynamoDB and generated records from the table as shown in the image below.
 
@@ -43,3 +43,16 @@ I further integrated DynamoDB local into the existing [docker-compose file](http
 
 ![Image showing table records generated from the DynamoDB local volume](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Dynamodb-table-records-week-1.png)
 
+### 5. Running Postgres Container.
+I installed postgres client into Gitpod using the code below. I then connected successfully to the postgresql using the Database explorer on gitpod and the gitpod codespace.  
+
+```yml
+
+- name: postgres
+    init: |
+      curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+      echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+      sudo apt update
+      sudo apt install -y postgresql-client-13 libpq-dev
+
+```
