@@ -29,6 +29,6 @@ I created the API Endpoints for the notification feature in the [OpenAPI](https:
 
 ### 3. Implemented the notifications page using react
 
-Created the frontend page for the notifications feed feature of the cruddur app using react and used React router to route it to the app. Here is the [link](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js) to the Notifications Feed page
+Created the frontend page for the notifications feed feature of the cruddur app using react and used React router to route it to the app. Here is the [link](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/frontend-react-js/src/pages/NotificationsFeedPage.js) to the Notifications Feed page with a post from User(Sanusi Waris) saying (I am beautiful) being notified
 
 ![Image of the Notifications page](https://github.com/Sanusi-bit/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Notifications-FeedPagwe-week-1.png)
