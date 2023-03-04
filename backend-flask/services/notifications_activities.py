@@ -3,7 +3,8 @@ from aws_xray_sdk.core import xray_recorder
 
 class NotificationsActivities:
   def run():
-    segment = xray_recorder.begin_segment('notifications_activities')
+    #X-ray ----------
+    #segment = xray_recorder.begin_segment('notifications_activities')
     model = {
       'errors': None,
       'data': None
@@ -33,10 +34,11 @@ class NotificationsActivities:
       },
       ]
       
-    subsegment = xray_recorder.begin_subsegment('mock_data')
-    dict = {
-        "now": now.isoformat(),
-        "results_size": len(model['data'])
-    }
-    segment.put_metadata('key', dict, 'namespace')
+   # subsegment = xray_recorder.begin_subsegment('mock_data')
+   #X-ray ---------------------
+    #dict = {
+      #  "now": now.isoformat(),
+     #   "results_size": len(model['data'])
+    #}
+   # segment.put_metadata('key', dict, 'namespace')
     return results
