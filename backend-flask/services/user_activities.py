@@ -24,11 +24,13 @@ class UserActivities:
         'expires_at': (now + timedelta(days=31)).isoformat()
       }]
       model['data'] = results
-      subsegment = xray_recorder.begin_subsegment('mock_data')
+
+    subsegment = xray_recorder.begin_subsegment('mock_data')
    #X-ray ---------------------
     dict = {
       "now": now.isoformat(),
       "results_size": len(model['data'])
     }
     segment.put_metadata('key', dict, 'namespace')
+    xray_recorder.end_subsegment()
     return model
