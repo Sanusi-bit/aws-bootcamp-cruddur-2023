@@ -18,7 +18,7 @@
 				"vscodevim.vim"
 			],
 			"settings": {
-				"terminal.integrated.fontSize":20,
+				"terminal.integrated.fontSize":14,
 				"editor.fontSize": 14,
 				"workbench.colorTheme": "Default Dark+ Experimental"
 			}
